@@ -13,9 +13,6 @@ puts "RSVP by?"
 rsvp_by = gets.chomp.capitalize
 puts "Who's the host?"
 host_name = gets.chomp
-puts " "
 puts "Dear #{guest_name},"
-puts " "
 puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{rsvp_by}."
-puts " "
 puts "Sincerely, #{host_name}"
