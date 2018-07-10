@@ -4,11 +4,11 @@
 puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp.capitalize
 puts "The party's name?"
-party_name = gets.chomp.capitalize
+party_name = gets.chomp
 puts "The date?"
-date = gets.chomp.capitalize
+date = gets.chomp
 puts "Time of party?"
-time = gets.chomp.downcase
+time = gets.chomp
 puts "RSVP by?"
 rsvp_by = gets.chomp.capitalize
 puts "Who's the host?"
