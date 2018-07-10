@@ -11,6 +11,8 @@ puts "Time of party?"
 time = gets.chomp.downcase
 puts "RSVP by?"
 rsvp_by = gets.chomp.capitalize
+puts "Who's the host?"
+host_name = gets.chomp.capitalize
 puts "Dear #{guest_name},"
 puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{rsvp_by}."
 puts "Sincerely, #{host_name}"
